@@ -1,0 +1,187 @@
+{
+  'status_code': 0,
+  'data': [],
+  'qc': '',
+  'cursor': 0,
+  'has_more': 0,
+  'ad_info': {},
+  'extra': {
+    'now': 1712386815000,
+    'logid': '202404061500143A5490B0F9333FDBB8F0',
+    'fatal_item_ids': [],
+    'search_request_id': ''
+  },
+  'log_pb': {
+    'impr_id': '202404061500143A5490B0F9333FDBB8F0'
+  },
+  'search_nil_info': {
+    'search_nil_type': 'service_empty',
+    'is_load_more': 'first_flush',
+    'search_nil_item': 'federation_empty',
+    'text_type': 70
+  },
+  'guide_search_words': None,
+  'global_doodle_config': {
+    'keyword': '达孜雪乡',
+    'filter_settings': [
+      {
+        'title': '排序依据',
+        'name': 'sort_type',
+        'log_name': 'by_top',
+        'default_index': 0,
+        'android_version': 170300,
+        'ios_version': 170300,
+        'lite_android_version': 170300,
+        'lite_ios_version': 170300,
+        'enable_lite': True,
+        'huoshan_android_version': 0,
+        'huoshan_ios_version': 0,
+        'enable_huo_shan': False,
+        'items': [
+          {
+            'title': '综合排序',
+            'value': '0',
+            'log_value': 'top_all'
+          },
+          {
+            'title': '最新发布',
+            'value': '2',
+            'log_value': 'top_time'
+          },
+          {
+            'title': '最多点赞',
+            'value': '1',
+            'log_value': 'top_likes'
+          }
+        ]
+      },
+      {
+        'title': '发布时间',
+        'name': 'publish_time',
+        'log_name': 'by_time',
+        'default_index': 0,
+        'android_version': 170300,
+        'ios_version': 170300,
+        'lite_android_version': 170300,
+        'lite_ios_version': 170300,
+        'enable_lite': True,
+        'huoshan_android_version': 0,
+        'huoshan_ios_version': 0,
+        'enable_huo_shan': False,
+        'items': [
+          {
+            'title': '不限',
+            'value': '0',
+            'log_value': 'time_all'
+          },
+          {
+            'title': '一天内',
+            'value': '1',
+            'log_value': 'within_day'
+          },
+          {
+            'title': '一周内',
+            'value': '7',
+            'log_value': 'within_week'
+          },
+          {
+            'title': '半年内',
+            'value': '180',
+            'log_value': 'within_half_year'
+          }
+        ]
+      },
+      {
+        'title': '视频时长',
+        'name': 'filter_duration',
+        'log_name': 'by_duration',
+        'default_index': 0,
+        'android_version': 190200,
+        'ios_version': 190200,
+        'lite_android_version': 0,
+        'lite_ios_version': 0,
+        'enable_lite': False,
+        'huoshan_android_version': 0,
+        'huoshan_ios_version': 0,
+        'enable_huo_shan': False,
+        'items': [
+          {
+            'title': '不限',
+            'value': '',
+            'log_value': '不限'
+          },
+          {
+            'title': '1分钟以下',
+            'value': '0-1',
+            'log_value': '1分钟以下'
+          },
+          {
+            'title': '1-5分钟',
+            'value': '1-5',
+            'show_dot': 1964793600,
+            'log_value': '1-5分钟'
+          },
+          {
+            'title': '5分钟以上',
+            'value': '5-10000',
+            'log_value': '5分钟以上'
+          }
+        ],
+        'search_nil_text': {
+          'info': '暂无更多，',
+          'jump_text': '查看所有内容'
+        },
+        'search_less_text': {
+          'info': '暂无更多，',
+          'jump_text': '查看所有内容'
+        }
+      },
+      {
+        'title': '内容形式',
+        'name': 'content_type',
+        'log_name': 'by_aweme_type',
+        'default_index': 0,
+        'filter_style': 0,
+        'android_version': 200900,
+        'ios_version': 200900,
+        'lite_android_version': 0,
+        'lite_ios_version': 0,
+        'enable_lite': False,
+        'huoshan_android_version': 0,
+        'huoshan_ios_version': 0,
+        'enable_huo_shan': False,
+        'items': [
+          {
+            'title': '不限',
+            'value': '0',
+            'log_value': 'type_all'
+          },
+          {
+            'title': '视频',
+            'value': '1',
+            'log_value': 'video'
+          },
+          {
+            'title': '图文',
+            'value': '2',
+            'log_value': 'picture'
+          }
+        ],
+        'search_nil_text': {
+          'info': '暂无更多，',
+          'jump_text': '查看所有内容'
+        },
+        'search_less_text': {
+          'info': '暂无更多，',
+          'jump_text': '查看所有内容'
+        }
+      }
+    ]
+  },
+  'polling_time': 3,
+  'time_cost': {
+    'stream_inner': 398
+  },
+  'ops': None,
+  'path': '/aweme/v1/web/general/search/single/'
+}
